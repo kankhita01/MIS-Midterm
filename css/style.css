@@ -10,11 +10,8 @@ body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-header{
-=======
 header , footer{
->>>>>>> 043ae8049139bbabaf973b327548437098480915
+
     background-color: #333;
     color: white;
     text-align: center;
@@ -63,3 +60,38 @@ margin-bottom: 23px;
 .img-part img{
     max-width: 350px;
 }
+
+
+
+
+
+
+
+
+.content{
+    
+    padding: 50px 0;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin: auto;
+    }
+    
+    .contact-form input, .contact-form textarea {
+        padding: 10px;
+        margin: 10px 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .contact-form input[type="submit"] {
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .contact-form input[type="submit"]:hover {
+        background-color: #555;
+    }
