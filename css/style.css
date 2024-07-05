@@ -10,7 +10,6 @@ body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
 header , footer{
     background-color: #333;
     color: white;
@@ -53,5 +52,5 @@ margin-bottom: 25px;
     justify-content: space-evenly;
 }
 .img-part img{
-    max-width: 300px;
+    max-width: 350px;
 }
