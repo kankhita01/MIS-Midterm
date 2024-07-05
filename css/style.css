@@ -10,13 +10,22 @@ body {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+header{
+=======
 header , footer{
+>>>>>>> 043ae8049139bbabaf973b327548437098480915
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
 }
-
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;    
+}
 .navbar{
     display: flex;
     justify-content: center;
@@ -40,11 +49,11 @@ header , footer{
 
 .home-info{text-align: center;padding: 50px 0;}
 .home-info h2{
-
+    margin-top: 0;
 }
 .home-info p{
 
-margin-bottom: 25px;
+margin-bottom: 23px;
 }
 .img-part{
     display: flex;
